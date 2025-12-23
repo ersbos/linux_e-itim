@@ -1,0 +1,18 @@
+# Config.in - Buildroot menuconfig girişi örneği
+# Ders 10: Buildroot ve Yocto
+#
+# Bu dosya, özel paketi menuconfig'de görünür kılar.
+
+config BR2_PACKAGE_HELLO_PACKAGE
+	bool "hello-package"
+	help
+	  Gömülü Linux Sistemleri Kursu örnek paketi.
+	  
+	  Bu paket, Buildroot'a özel uygulama nasıl eklenir
+	  konusunu göstermek için oluşturulmuştur.
+	  
+	  Özellikler:
+	  - Sistem bilgilerini görüntüler
+	  - Verbose mod desteği
+	  
+	  https://github.com/example/hello-package
