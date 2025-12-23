@@ -149,7 +149,7 @@ sudo ./i2c_example /dev/i2c-1 0x68
 ## 📝 Lisans
 
 Bu materyal eğitim amaçlıdır.  
-Kaynak: C ve Sistem Programcıları Derneği
+
 
 ---
 
