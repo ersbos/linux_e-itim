@@ -1,0 +1,35 @@
+# Ignore compiled files
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.order
+*.symvers
+.tmp_versions/
+Module.symvers
+modules.order
+
+# Executables
+*.out
+hello
+hello_arm
+hello_embedded
+led_blink
+button_led
+gpio_interrupt
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build directories
+build/
+obj/
